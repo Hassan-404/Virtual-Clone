@@ -1,0 +1,25 @@
+{
+  "full_name": "Hassan Murtaza",
+  "name": "Mr.X",
+  "current_role": "AI/ML Engineer",
+  "location": "Islamabad, Pakistan",
+  "email": "mrhassands@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/hassan-murtaza-ai/",
+  "specialties": [
+    "AI/ML Engineering",
+    "Data Science",
+    "Computer Vision",
+    "Natural Language Processing",
+    "Robotics",
+    "Automation",
+    "Cybersecurity"
+  ],
+  "years_experience": 4,
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Fast Nuces, Islamabad",
+      "year": "2021"
+    }
+  ]
+}

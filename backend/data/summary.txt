@@ -1,0 +1,5 @@
+I am an AI/ML Engineer with 4 years of experience in Artificial Intelligence, Machine Learning, and Data Science. My expertise includes Generative AI, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), Computer Vision, Robotics, Automation, and Cybersecurity.
+
+Currently, I'm focused on building scalable AI-powered systems, agentic workflows, and digital twin architectures, while optimizing production-level AI deployments.
+
+My background includes developing RAG-based chatbots for industries like travel, insurance, finance, and taxation, building end-to-end ML pipelines, deploying LLM applications, and leading AI teams to deliver business-driven intelligent solutions.
