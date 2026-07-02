@@ -1,4 +1,4 @@
-name: Deploy Digital Twin
+name: Deploy Virtual Clone
 
 on:
   push:
