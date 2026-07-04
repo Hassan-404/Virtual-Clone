@@ -16,8 +16,16 @@ load_dotenv()
 
 app = FastAPI()
 
-# Configure CORS
-origins = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+# Configure CORS — allow common local dev ports (Next.js may use 3001+ if 3000 is taken)
+_dev_origins = [
+    f"http://{host}:{port}"
+    for host in ("localhost", "127.0.0.1")
+    for port in range(3000, 3010)
+]
+_configured = os.getenv("CORS_ORIGINS", "")
+origins = [o.strip() for o in _configured.split(",") if o.strip()] if _configured else _dev_origins.copy()
+if not os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
+    origins = list(dict.fromkeys([*origins, *_dev_origins]))
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,

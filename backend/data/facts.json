@@ -1,25 +1,241 @@
 {
-  "full_name": "Hassan Murtaza",
-  "name": "Mr.X",
-  "current_role": "AI/ML Engineer",
-  "location": "Islamabad, Pakistan",
-  "email": "mrhassands@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/hassan-murtaza-ai/",
+  "personal_information": {
+    "full_name": "Hassan Murtaza",
+    "preferred_name": "Hassan",
+    "current_role": "LLM Engineer | AI Automation, RAG, Agents, Cloud Infrastructure",
+    "headline": "Generative AI Engineer specializing in LLMs, RAG, AI Agents, and Production AI Systems",
+    "location": "Islamabad, Pakistan",
+    "email": "mrhassands@gmail.com",
+    "phone": "+92 340 2222372",
+    "linkedin": "https://www.linkedin.com/in/hassan-murtaza-ai/",
+    "years_experience": 4
+  },
+  "professional_summary": "AI/ML Engineer with 4+ years of experience designing, building, and deploying production-grade AI applications. Specialized in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), AI Agents, MLOps, and cloud-native AI infrastructure. Experienced in developing scalable AI solutions, optimizing inference pipelines, deploying serverless architectures, and leading AI engineering teams to deliver enterprise-grade products.",
   "specialties": [
-    "AI/ML Engineering",
-    "Data Science",
-    "Computer Vision",
+    "Large Language Models (LLMs)",
+    "Generative AI",
+    "Retrieval-Augmented Generation (RAG)",
+    "AI Agents",
+    "Agentic AI",
+    "Prompt Engineering",
+    "Machine Learning",
+    "Applied AI",
     "Natural Language Processing",
-    "Robotics",
-    "Automation",
-    "Cybersecurity"
+    "MLOps",
+    "Cloud AI Infrastructure",
+    "Backend Engineering",
+    "Serverless Computing",
+    "Vector Search",
+    "AI Automation",
+    "Model Deployment"
   ],
-  "years_experience": 4,
+  "technical_skills": {
+    "programming_languages": [
+      "Python",
+      "SQL",
+      "C++"
+    ],
+    "frameworks": [
+      "LangChain",
+      "LlamaIndex",
+      "FastAPI",
+      "Flask",
+      "Streamlit"
+    ],
+    "llm_platforms": [
+      "OpenAI API",
+      "GPT-4",
+      "Azure OpenAI"
+    ],
+    "vector_databases": [
+      "ChromaDB",
+      "Pinecone",
+      "FAISS"
+    ],
+    "cloud": {
+      "aws": [
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "Amazon S3",
+        "Amazon CloudFront",
+        "Amazon IAM",
+        "Amazon SageMaker",
+        "Amazon CloudWatch"
+      ],
+      "gcp": [
+        "Vertex AI",
+        "Cloud Functions",
+        "Cloud Run",
+        "Cloud Storage"
+      ]
+    },
+    "devops": [
+      "Docker",
+      "Terraform",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "CI/CD"
+    ],
+    "machine_learning": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "Model Optimization"
+    ],
+    "big_data": [
+      "Apache Kafka",
+      "Apache Spark",
+      "PySpark",
+      "Hadoop"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite"
+    ],
+    "api_development": [
+      "REST APIs",
+      "Async APIs",
+      "Microservices",
+      "Serverless APIs"
+    ]
+  },
+  "areas_of_expertise": [
+    "Production AI",
+    "Generative AI",
+    "RAG Pipelines",
+    "AI Chatbots",
+    "Conversational AI",
+    "Enterprise AI",
+    "Semantic Search",
+    "Embedding Pipelines",
+    "Document Intelligence",
+    "Knowledge Retrieval",
+    "Human-in-the-Loop AI",
+    "Cloud Architecture",
+    "Scalable AI Systems",
+    "Inference Optimization",
+    "Cost Optimization",
+    "Prompt Optimization",
+    "LLM Evaluation"
+  ],
+  "industry_experience": [
+    "Travel & Tourism",
+    "Transportation",
+    "Insurance",
+    "Finance",
+    "Taxation",
+    "Enterprise AI"
+  ],
+  "professional_experience": [
+    {
+      "company": "Divine Pathways Services LTD",
+      "position": "Managing Director",
+      "duration": "July 2025 - Present",
+      "location": "London, United Kingdom",
+      "responsibilities": [
+        "Lead IT and software solutions for the travel and transport industry.",
+        "Manage business strategy and digital transformation.",
+        "Oversee travel technology products and operational systems.",
+        "Supervise Umrah travel services including visa processing, transportation, accommodation, and customer operations."
+      ]
+    },
+    {
+      "company": "SoftEase Technologies Pvt Ltd",
+      "position": "AI/ML (LLM) Engineer",
+      "duration": "November 2023 - Present",
+      "responsibilities": [
+        "Develop production-ready LLM applications.",
+        "Build Retrieval-Augmented Generation (RAG) systems.",
+        "Design AI Agents and automation workflows.",
+        "Coordinate engineering teams and project timelines.",
+        "Deploy AI applications on cloud infrastructure.",
+        "Ensure AI solutions align with business and ethical standards."
+      ]
+    },
+    {
+      "company": "CodeDevza Technologies",
+      "position": "AI/ML Engineer",
+      "duration": "August 2022 - September 2023",
+      "responsibilities": [
+        "Developed machine learning solutions.",
+        "Built NLP and computer vision applications.",
+        "Optimized ML pipelines.",
+        "Deployed AI models for production use."
+      ]
+    },
+    {
+      "company": "Knowledge Discovery and Data Science Lab",
+      "position": "Research Assistant",
+      "duration": "December 2021 - July 2022",
+      "responsibilities": [
+        "Conducted AI and Big Data research.",
+        "Collected and processed large datasets.",
+        "Built Kafka, Hadoop, and Spark pipelines.",
+        "Performed statistical and predictive analysis.",
+        "Implemented research papers into production-ready prototypes."
+      ]
+    }
+  ],
   "education": [
     {
       "degree": "Bachelor of Science in Computer Science",
-      "institution": "Fast Nuces, Islamabad",
-      "year": "2021"
+      "institution": "FAST National University of Computer and Emerging Sciences (FAST-NUCES)",
+      "duration": "2017 - 2021"
+    },
+    {
+      "degree": "FSc Pre-Engineering",
+      "institution": "Superior College",
+      "duration": "2015 - 2017"
+    },
+    {
+      "degree": "SSC (Science Group)",
+      "institution": "Nusrat Jahan Academy School",
+      "duration": "2013 - 2015"
     }
+  ],
+  "certifications": [
+    "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "Neural Networks and Deep Learning",
+    "Computer Vision Basics",
+    "Data Visualization with Python"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "Urdu",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Punjabi",
+      "proficiency": "Native"
+    }
+  ],
+  "soft_skills": [
+    "Leadership",
+    "Problem Solving",
+    "System Design",
+    "Critical Thinking",
+    "Technical Communication",
+    "Team Collaboration",
+    "Research",
+    "Project Management",
+    "Client Communication",
+    "Strategic Planning"
+  ],
+  "interests": [
+    "Artificial Intelligence",
+    "Large Language Models",
+    "Cloud Computing",
+    "MLOps",
+    "Distributed Systems",
+    "AI Infrastructure",
+    "Agentic AI",
+    "Enterprise Automation"
   ]
 }
