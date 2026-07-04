@@ -145,9 +145,11 @@ def call_bedrock(conversation: List[Dict], user_message: str) -> str:
     except ClientError as e:
         error_code = e.response['Error']['Code']
         if error_code == 'ValidationException':
-            # Handle message format issues
             print(f"Bedrock validation error: {e}")
-            raise HTTPException(status_code=400, detail="Invalid message format for Bedrock")
+            raise HTTPException(
+                status_code=400,
+                detail=e.response["Error"].get("Message", "Invalid request for Bedrock"),
+            )
         elif error_code == 'AccessDeniedException':
             print(f"Bedrock access denied: {e}")
             raise HTTPException(status_code=403, detail="Access denied to Bedrock model")
