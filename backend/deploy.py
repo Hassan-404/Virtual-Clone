@@ -42,9 +42,22 @@ def main():
         check=True,
     )
 
+
     # Copy application files
     print("Copying application files...")
-    for file in ["server.py", "lambda_handler.py", "context.py", "resources.py"]:
+
+    FILES = [
+        "server.py",
+        "lambda_handler.py",
+        "context.py",
+        "resources.py",
+        "memory.py",
+        "prompt_builder.py",
+        "summarizer.py",
+        "intent.py",
+    ]
+
+    for file in FILES:
         if os.path.exists(file):
             shutil.copy2(file, "lambda-package/")
     

@@ -1,23 +1,26 @@
-from pypdf import PdfReader
 import json
+from pathlib import Path
 
-# Read LinkedIn PDF
-try:
-    reader = PdfReader("./data/Profile.pdf")
-    linkedin = ""
-    for page in reader.pages:
-        text = page.extract_text()
-        if text:
-            linkedin += text
-except FileNotFoundError:
-    linkedin = "LinkedIn profile not available"
+DATA_DIR = Path(__file__).parent / "data"
 
-# Read other data files
-with open("./data/summary.txt", "r", encoding="utf-8") as f:
-    summary = f.read()
+def load_json(filename: str):
+    path = DATA_DIR / filename
+    if not path.exists():
+        raise FileNotFoundError(f"Missing required file: {path}")
 
-with open("./data/style.txt", "r", encoding="utf-8") as f:
-    style = f.read()
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-with open("./data/facts.json", "r", encoding="utf-8") as f:
-    facts = json.load(f)
+def load_text(filename: str):
+    path = DATA_DIR / filename
+    if not path.exists():
+        raise FileNotFoundError(f"Missing required file: {path}")
+
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read().strip()
+
+
+# Single source of truth for Hassan's profile
+facts = load_json("facts.json")
+# Communication style
+style = load_text("style.txt")
